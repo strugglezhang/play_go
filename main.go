@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
@@ -20,6 +21,6 @@ func main() {
 
 	// 这是最后的胜利，你妹的你个二傻子
 
-	//
+	os.Exit(200)
 
 }
